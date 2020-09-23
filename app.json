@@ -13,11 +13,17 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
+    },
+    "android": {
+      "package": "com.jobs.App",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyDISr9BgYBkwr889Um4_XDZ2-Emrjbf7ho"
+        }
+      }
     },
     "web": {
       "favicon": "./assets/favicon.png"
